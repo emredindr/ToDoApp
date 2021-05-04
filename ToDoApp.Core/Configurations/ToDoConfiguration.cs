@@ -4,7 +4,7 @@ using ToDoApp.Core.Entities;
 
 namespace ToDoApp.Core.Configurations
 {
-    public class ToDoConfiguration: IEntityTypeConfiguration<Todo>
+    public class TodoConfiguration: IEntityTypeConfiguration<Todo>
     {
         public void Configure(EntityTypeBuilder<Todo>builder)
         {
